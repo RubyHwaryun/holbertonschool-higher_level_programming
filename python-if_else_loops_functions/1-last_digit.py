@@ -11,4 +11,4 @@ elif last_digit < 6 and last_digit != 0:
    more = 'and is less than 6 and not 0'
 else:
    more = 'and is 0'
-print(f"The last digit of {number} is {last_digit} {more}")
+print(f"Last digit of {number} is {last_digit} {more}")
