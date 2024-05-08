@@ -5,3 +5,5 @@ def islower(c):
 
   elif (c >= 'a' and c <= 'z'):
    print("{} is lower".format(c));
+  else:
+    False
