@@ -1,6 +1,4 @@
 #!/usr/bin/python3
-x = int(input("palcr your number"))
-def print_last_digit(x):
-  last_digit = x % 10
-  print(last_digit)
-print_last_digit(x)
+def print_last_digit(number):
+    last_digit = number % 10
+    print(last_digit)
