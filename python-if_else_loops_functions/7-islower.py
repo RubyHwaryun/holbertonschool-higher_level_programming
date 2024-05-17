@@ -1,9 +1,9 @@
-#!/usr/bin/python3
 def islower(c):
-  if (c >= 'A' and c <= 'Z'):
-   print("{} is upper".format(c));
+    return ord('a') <= ord(c) <= ord('z')
 
-  elif (c >= 'a' and c <= 'z'):
-   print("{} is lower".format(c));
-  else:
-    False
+
+print(islower('a'))
+print(islower('A'))
+print(islower('z'))
+print(islower('Z'))  
+print(islower('1'))
