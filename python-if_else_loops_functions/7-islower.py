@@ -1,12 +1,8 @@
 #!/usr/bin/python3
 def islower(c):
-    if not c:
-        return False   
-    return ord('a') <= ord(c) <= ord('z')
-
-
-print("a is {}".format("lower" if islower("a") else "upper"))
-print("H is {}".format("lower" if islower("H") else "upper"))
-print("A is {}".format("lower" if islower("A") else "upper"))
-print("3 is {}".format("lower" if islower("3") else "upper"))
-print("g is {}".format("lower" if islower("g") else "upper"))
+    if (c >= 'A' and c <= 'Z'):
+        print("{} is upper".format(c));
+    elif (c >= 'a' and c <= 'z'):
+        print("{} is lower".format(c));
+    else:
+        return False
