@@ -2,9 +2,8 @@
 
 def print_matrix_integer(matrix=[[]]):
     for row in matrix:
-        for i, num in enumerate(row):
-            if i != 0:
-                print(" ", end="")
+        for num in row:
             print("{:d}".format(num), end=" ")
+            if num != (len(num) - 1):
+                print(" ", end="")
         print()
-
