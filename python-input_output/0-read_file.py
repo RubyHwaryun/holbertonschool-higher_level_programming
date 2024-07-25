@@ -1,7 +1,6 @@
 #!/usr/bin/python3
 
 def read_file(filename=""):
-
     """
     Reads the content of the specified file and returns it as a string.
 
@@ -15,4 +14,5 @@ def read_file(filename=""):
     IOError: If the file cannot be opened or if there is an input/output error while reading.
     """
     with open('my_file', encoding="utf-8") as f:
-	read_data = f.read()
+        read_data = f.read()
+
