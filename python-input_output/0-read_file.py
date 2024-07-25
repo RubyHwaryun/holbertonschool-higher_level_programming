@@ -22,6 +22,6 @@ def read_file(filename=""):
     Raises:
     IOError: If the file cannot be opened or if there is an input/output error while reading.
     """
-    with open('my_file_0', encoding="utf-8") as f:
+    with open('my_file_0.txt', encoding="utf-8") as f:
         read_data = f.read()
 
