@@ -1,5 +1,14 @@
 #!/usr/bin/python3
 
+"""
+Module: file_operations
+
+This module provides functions for file operations, such as reading and writing files.
+
+Functions:
+- read_file(filename=""): Reads the content of the specified file and returns it as a string.
+"""
+
 def read_file(filename=""):
     """
     Reads the content of the specified file and returns it as a string.
