@@ -4,12 +4,13 @@ This module defines a function to append a string to a UTF-8 text file
 and return the number of characters appended.
 """
 
+
 def append_write(filename="", text=""):
     """
-    Append a string to a UTF-8 text file and return the number of characters appended.
+    Append a string to a UTF-8 text file and return the number of characters.
 
     Parameters:
-    filename (str): The path to the file to append to. Defaults to an empty string.
+    filename (str): The path to the file to append to.
     text (str): The text to append to the file. Defaults to an empty string.
 
     Returns:
